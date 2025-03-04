@@ -1,18 +1,7 @@
 "use client";
 import { useState } from "react";
-import Counter from "./components/Counter";
 import TotalValue from "./components/TotalValue";
 
-const initialCounters = [
-  {
-    id: 1,
-    value: 0,
-  },
-  {
-    id: 2,
-    value: 0,
-  },
-];
 
 export default function Home() {
   const [counters, setCounters] = useState(initialCounters);
